@@ -1,0 +1,70 @@
+ 
+ **{
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+
+ /***headerMenu****/
+ a.link-logo{
+   
+   font-size: 200%;
+   text-decoration: none;
+   font-weight: bold;
+   color: black;
+ }
+ .logo{
+   margin-top: 2%;
+   text-align: center;
+   
+   
+   
+ }
+ ul.font-diferente{
+   font-family: sans-serif, 'Times New Roman', Times, serif;
+ }
+ 
+/***textinofrmações***/
+ div.infomg{
+ font-size: 200%;
+ margin-bottom: 20%;
+ border-style: solid;
+ border-color: gray
+;
+ }
+ 
+
+ /***headerMenuFIM****/
+
+ 
+ 
+ 
+
+
+
+
+/****alinhamento/fonte/vdproduto****/
+div.col-sm div.format{
+  border-radius: 3%;
+ padding-top: 20% ;
+  
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/***animação***/
+.format:hover{
+  background-color: rgba(243, 223, 198, 0.349);
+}
+/***rodapé***/
+.rodapeblock{
+  background:#000000;
+}
+.fab {
+  color: #ffffff;
+}
+.formatLinkFooter{
+color: #ffffff;
+/***FIM_rodapé***/
+}

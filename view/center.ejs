@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <title>AWS</title>
+  </head>
+  <body>
+      <header>
+        <div class="logo">
+          <a class="link-logo"href="#">F I T</a>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+         
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto font-diferente">
+              <li class="nav-item active mr-4">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item  mr-5">
+                <a class="nav-link" href="#">  ALL  </a>
+              </li>
+              <li class="nav-item  mr-5">
+                <a class="nav-link" href="#">  STORE  </a>
+              </li>
+              <li class="nav-item  mr-5 ">
+                <a class="nav-link" href="#">  FORNTE  </a>
+              </li>
+              <li class="nav-item  mr-5">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">DIPS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav>
+          
+        </nav>
+      </header>
+      <div class="container"><!--container-->
+
+        <div class="row row-cols-1"><!--colunas-e-conteudos-->
+          <div class="col" >
+		  <p class="h2 mt-3 font-weight-bold ">Aqui na FitSelli você pode verificar sua saude. nós cuidamos de você</p>
+          </div>
+          <div class="col" >
+	    <form action="/add" method="post">
+	    
+		 <label for="input1">Peso</label><br>
+                   <input type="text" placeholder="Ex. 50kg" id="input1" class="form-control" name="input1"><br>
+
+	      	 <label for="input1">Idade</label><br>
+	           <input type="text" id="input2" placeholder="Ex. 18"  class="form-control"  name"input2"><br>
+	           <input type="submit" class="btn btn-dark" value="Submit">
+	    </form>
+
+            
+          </div>
+          <div class="col-12 infomg" >
+		  
+		  <div class="col"><%=textCompletion%></div>
+		  
+		  
+
+          </div>
+          
+         
+        
+          
+       
+        </div><!--Fim-colunas-e-conteudos-->
+      
+         
+        
+       
+      </div><!--Fimcontainer-->
+      <footer class="mt-5 " ><!--rodapé-->
+        <div class="row rodapeblock">
+         
+          <div class="col">
+            <ul class="text-center list-group">
+              <li class="list-group"></li><a class="formatLinkFooter " href="">EMPRESA</a></li>
+              <li class="list-group"><a class="formatLinkFooter " href="#">Sobre</a></li>     
+              <li class="list-group"><a class="formatLinkFooter " href="#">Empregos</a></li>
+              <li class="list-group"><a class="formatLinkFooter " href="#">For the Record</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class=" text-center list-group">
+              <li class="list-group"><a class="formatLinkFooter " href="#">EMPRESA</a></li>
+              <li class="list-group"></li><a class="formatLinkFooter " href="#">Sobre</a></li>     
+              <li class="list-group"></li><a class="formatLinkFooter " href="#">Empregos</a></li>
+              <li class="list-group"></li><a class="formatLinkFooter " href="#">For the Record</a></li>
+            </ul>
+           
+        </div>
+         <div class="col text-center mt-5">
+            <ul>
+              <a href="#"><i  class=" mr-5 fab fa-facebook fa-2x footericone"></i></a>
+          
+             <a href="#"><i class="mr-5 fab fa-instagram fa-2x footericone"></i></a>
+          
+         
+             <a href="#"><i class="mr-5 fab fa-twitter-square fa-2x footericone"></i></a>
+            </ul>
+             
+          
+            
+          </div>
+          <div class=" mt-3 col-sm-12 text-center">
+                
+            <p class="text-center">© 2021 Do Up English.</p><p> Todos os direitos reservados a Do Up English</p>
+                      
+                    
+          </div>
+        </div>
+
+
+
+        <div class="row rodapeblock">
+          
+        </div>
+         
+       </footer><!--fimRodapé-->
+          
+        
+   
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/185a99b3b9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
