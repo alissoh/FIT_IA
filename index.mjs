@@ -15,7 +15,7 @@ const openai = new OpenAIApi(configuration);
 app.use(express.static('public'))
 
 app.set('view engine', 'ejs')
-app.set('views','./view')//o ejs encontra o view automatica logo deixa de ser nessesario adicionar essa função, mas caso voce queria definir um view espefico, é com essa função que é possivel.
+app.set('views','./view')
 
 app.use(bodyParser.urlencoded({ extended: false }))
 
@@ -32,7 +32,7 @@ app.post("/add", async (req, res) => {
   const idade = req.body.input2;
   const prompt = `
 
-rotina de alimentação para fins de estudo somente, para perde peço com base sua idade que é essa ${idade} e peso que é esse  ${peso}. faça dessa forma a resposta  faça uma separação de cada um dos momentos de se alimentar
+rotina de alimentação para fins de estudo somente, para perde peso com base sua idade que é essa ${idade} e peso que é esse  ${peso}. faça dessa forma a resposta  faça uma separação de cada um dos momentos de se alimentar
 café da manhã: informe aqui
 almoço: informe aqui
 café da tarde: informe aqui
