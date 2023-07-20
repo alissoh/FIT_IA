@@ -32,7 +32,7 @@ app.post("/add", async (req, res) => {
   const idade = req.body.input2;
   const prompt = `
 
-rotina de alimentação para fins de estudo somente, para perde peso com base sua idade que é essa ${idade} e peso que é esse  ${peso}. faça dessa forma a resposta  faça uma separação de cada um dos momentos de se alimentar
+(rotina de alimentação para fins de estudo) para perda peso com base sua idade que é essa ${idade} e  o peso que é esse  ${peso}. faça dessa forma a resposta  faça uma separação de cada um dos momentos de se alimentar
 café da manhã: informe aqui
 almoço: informe aqui
 café da tarde: informe aqui
